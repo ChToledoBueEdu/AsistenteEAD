@@ -3,12 +3,27 @@ import streamlit as st
 from chatbot import predict_class, get_response, intents
 
 #### DEPLOY ########################################
+# Descargar recursos si no están disponibles
 import nltk
-# Descargar el recurso 'punkt' si no está disponible
 try:
     nltk.data.find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt_tab')
+    
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/omw-1.4')
+except LookupError:
+    nltk.download('omw-1.4')
 #### /DEPLOY #######################################
     
 hide_streamlit_style = """
