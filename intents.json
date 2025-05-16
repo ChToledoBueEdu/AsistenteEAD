@@ -1,0 +1,133 @@
+{
+    "intents": [
+        {
+            "tag": "crear_actividad",
+            "patterns": [
+                "¿Cómo creo una actividad en Moodle?",
+                "Quiero añadir una actividad al curso",
+                "¿Dónde se agregan las actividades?",
+                "Crear tarea en Moodle"
+            ],
+            "responses": [
+                "Para crear una actividad, activa edición, haz clic en 'Añadir una actividad o recurso' y selecciona el tipo de actividad que deseas agregar.",
+                "Debes ir al curso, activar edición y luego hacer clic en 'Agregar una actividad o recurso'."
+            ]
+        },
+        {
+            "tag": "tipos_actividad",
+            "patterns": [
+                "¿Qué tipos de actividades hay en Moodle?",
+                "¿Qué actividades puedo crear?",
+                "Opciones de actividades en Moodle"
+            ],
+            "responses": [
+                "Puedes crear tareas, cuestionarios, foros, wikis, SCORM, encuestas, entre otras.",
+                "Moodle permite varios tipos de actividades como tarea, cuestionario, foro, glosario, entre otros."
+            ]
+        },
+        {
+            "tag": "cargar_notas",
+            "patterns": [
+                "¿Cómo cargo las calificaciones?",
+                "Subir notas al sistema",
+                "Cargar reporte de calificaciones",
+                "¿Dónde subo las notas en Moodle?"
+            ],
+            "responses": [
+                "Ve al libro de calificaciones, selecciona 'Importar', elige el formato y carga el archivo.",
+                "Las calificaciones se pueden cargar desde el libro de calificaciones o directamente en cada actividad."
+            ]
+        },
+        {
+            "tag": "editar_actividad",
+            "patterns": [
+                "¿Cómo edito una actividad?",
+                "Modificar una tarea ya creada",
+                "Cambiar la configuración de una actividad",
+                "Editar actividad en Moodle"
+            ],
+            "responses": [
+                "Activa la edición, haz clic en 'Editar' junto a la actividad y selecciona 'Editar ajustes'.",
+                "Para editar una actividad, primero activa edición y luego haz clic en el ícono de engranaje o en el menú 'Editar'."
+            ]
+        },
+        {
+            "tag": "ver_reporte",
+            "patterns": [
+                "¿Dónde veo los reportes de actividades?",
+                "Ver progreso de los estudiantes",
+                "Reportes de participación",
+                "Revisar estadísticas de uso"
+            ],
+            "responses": [
+                "Puedes ver los reportes desde la sección de 'Informes' dentro del curso.",
+                "En cada actividad también puedes ver reportes específicos como intentos, calificaciones y tiempos."
+            ]
+        },
+        {
+            "tag": "subir_archivo",
+            "patterns": [
+                "¿Cómo subo un archivo?",
+                "Cargar PDF en Moodle",
+                "Añadir material de lectura",
+                "Subir documentos para los estudiantes"
+            ],
+            "responses": [
+                "Activa edición, haz clic en 'Añadir una actividad o recurso', selecciona 'Archivo', sube el documento y guarda los cambios.",
+                "Puedes subir archivos desde la opción 'Archivo' o 'Etiqueta', arrastrando el documento o seleccionándolo desde tu equipo."
+            ]
+        },
+        {
+            "tag": "configurar_cuestionario",
+            "patterns": [
+                "¿Cómo creo un cuestionario?",
+                "Hacer preguntas en Moodle",
+                "Configurar un examen en línea",
+                "Crear evaluación tipo test"
+            ],
+            "responses": [
+                "Primero, agrega una actividad de tipo 'Cuestionario', configura los parámetros y luego añade las preguntas desde el banco o nuevas.",
+                "Puedes usar preguntas de opción múltiple, verdadero/falso, respuestas cortas y más desde la actividad 'Cuestionario'."
+            ]
+        },
+        {
+            "tag": "exportar_calificaciones",
+            "patterns": [
+                "¿Cómo exporto las calificaciones?",
+                "Descargar reporte de notas",
+                "Exportar notas a Excel",
+                "Quiero guardar las calificaciones"
+            ],
+            "responses": [
+                "Ve al libro de calificaciones, haz clic en 'Exportar' y elige el formato (Excel, CSV, etc.) para descargar las notas.",
+                "Las calificaciones se pueden exportar desde la pestaña 'Exportar' del calificador, en varios formatos disponibles."
+            ]
+        },
+        {
+            "tag": "problemas_acceso",
+            "patterns": [
+                "No puedo entrar a Moodle",
+                "Me da error al iniciar sesión",
+                "Problemas para acceder",
+                "No reconoce mi usuario"
+            ],
+            "responses": [
+                "Verifica tu usuario y contraseña. Si el problema persiste, contacta al soporte técnico.",
+                "Es posible que tu cuenta esté inactiva. Intenta recuperar la contraseña o comunícate con el administrador."
+            ]
+        },
+        {
+            "tag": "soporte_tecnico",
+            "patterns": [
+                "¿A quién contacto por ayuda?",
+                "Necesito soporte",
+                "Tengo un problema con Moodle",
+                "¿Dónde puedo pedir asistencia técnica?"
+            ],
+            "responses": [
+                "Puedes contactar al equipo de soporte técnico de tu institución o escribir al correo asignado.",
+                "Para soporte, consulta con el administrador del sistema o revisa la sección de ayuda en Moodle."
+            ]
+        }
+    ]
+}
